@@ -1,0 +1,92 @@
+Folder PATH listing
+Volume serial number is 8691-F14F
+D:.
+|   .gitattributes
+|   .gitignore
+|   HELP.md
+|   mvnw
+|   mvnw.cmd
+|   pom.xml
+|   structure.txt
+|   
++---.idea
+|       .gitignore
+|       compiler.xml
+|       encodings.xml
+|       jarRepositories.xml
+|       misc.xml
+|       vcs.xml
+|       workspace.xml
+|       
++---.mvn
+|   \---wrapper
+|           maven-wrapper.properties
+|           
++---src
+|   +---main
+|   |   +---java
+|   |   |   \---com
+|   |   |       \---estuate
+|   |   |           \---image_uploader
+|   |   |               |   ImageUploaderApplication.java
+|   |   |               |   
+|   |   |               +---config
+|   |   |               |       S3Config.java
+|   |   |               |       
+|   |   |               +---controller
+|   |   |               |       ImageUploadController.java
+|   |   |               |       
+|   |   |               +---dto
+|   |   |               |       FileUploadRequest.java
+|   |   |               |       ImagePathRequest.java
+|   |   |               |       
+|   |   |               +---exception
+|   |   |               |       ApiErrorResponse.java
+|   |   |               |       FileUploadException.java
+|   |   |               |       GlobalExceptionHandler.java
+|   |   |               |       
+|   |   |               \---service
+|   |   |                       S3Service.java
+|   |   |                       
+|   |   \---resources
+|   |       |   application.yml
+|   |       |   
+|   |       +---static
+|   |       \---templates
+|   \---test
+|       \---java
+|           \---com
+|               \---estuate
+|                   \---image_uploader
+|                           ImageUploaderApplicationTests.java
+|                           
+\---target
+    +---classes
+    |   |   application.yml
+    |   |   
+    |   \---com
+    |       \---estuate
+    |           \---image_uploader
+    |               |   ImageUploaderApplication.class
+    |               |   
+    |               +---config
+    |               |       S3Config.class
+    |               |       
+    |               +---controller
+    |               |       ImageUploadController.class
+    |               |       
+    |               +---dto
+    |               |       FileUploadRequest.class
+    |               |       ImagePathRequest.class
+    |               |       
+    |               +---exception
+    |               |       ApiErrorResponse$ApiErrorResponseBuilder.class
+    |               |       ApiErrorResponse.class
+    |               |       FileUploadException.class
+    |               |       GlobalExceptionHandler.class
+    |               |       
+    |               \---service
+    |                       S3Service.class
+    |                       
+    \---generated-sources
+        \---annotations
